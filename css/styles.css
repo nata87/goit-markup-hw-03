@@ -74,12 +74,17 @@ border-bottom: 1px solid var(--cornflower);
 }
 
 .footer {
+  background-color: var(--navyblue);
+  padding: 100px 0;
 }
 .header-nav {
+  display: flex;
+  margin-right: auto;
+  align-items: center;
 }
 .header-logo-link,
 .footer-logo-link {
-  display: inline-block;
+  display: inline-flex;
   font-family: var(--raleway-font);
   font-size: 18px;
   font-weight: 800;
@@ -426,3 +431,7 @@ display: block;
   color: var(--slate-cl);
 }
 
+.footer-logo-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
